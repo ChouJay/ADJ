@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--解析Json字符串至对象-->
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_testGsonParseJsonToObject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="testGsonParseJsonToObject" />
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_testFastJsonParseJsonToObject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="testFastJsonParseJsonToObject" />
+    </LinearLayout>
+    <!--解析对象至Json字符串-->
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_testGsonParseObjectToJson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="testGsonParseObjectToJson" />
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/btn_testFastJsonParseObjectToJson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="testFastJsonParseObjectToJson" />
+    </LinearLayout>
+</LinearLayout>
